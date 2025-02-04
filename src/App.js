@@ -1,6 +1,8 @@
 import LoginContextProvider from "./components/context/loginContextProvider";
 import ParentComponents from "./components/parentComponents";
 import Effectcomp from "./components/useeffect/effectcomp";
+import CountRef from "./components/useref/countref";
+import DomManipulated from "./components/useref/domManipulated";
 import Statecomp from "./components/usestate/statecomp";
 function App() {
   return (
@@ -16,6 +18,11 @@ function App() {
       <LoginContextProvider>
         <ParentComponents />
       </LoginContextProvider>
+      <br></br><hr></hr>
+      <h2>UseRef</h2>
+      <CountRef/>
+      <br></br>
+      <DomManipulated/>
     </div>
   );
 }
