@@ -1,3 +1,4 @@
+import Effectcomp from "./components/useeffect/effectcomp";
 import Statecomp from "./components/usestate/statecomp";
 function App() {
   return (
@@ -6,6 +7,8 @@ function App() {
        React Hooks
       </h1><br></br>
       <Statecomp />
+      <br></br><hr></hr>
+      <Effectcomp />
     </div>
   );
 }
